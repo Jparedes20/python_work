@@ -1,3 +1,4 @@
+#Jerry Paredes
 #We add,remove and modify elements of a list
 
 _bikes=[] #Here I declared an empty list
@@ -34,6 +35,10 @@ print("\n\tMy frien Jhony ask me if he can use a bike, I told him yes"+str(_bike
 _bikes.append(_mario)
 _bikes.append(_jhony)
 print("\n\tMario and JHony has returned the bikes to me safely\n\t"+str(_bikes).upper())
+
+#Sort a list permanently with sort() method
+_bikes.sort()
+print("\n\tThis is the list of my bikes in order: "+str(_bikes).upper())
 
 #ask for an unknown item in list
 #_uknow='indian'
