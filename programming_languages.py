@@ -3,6 +3,8 @@
 #In this case we want make a poll of many people and their favorite language
 
 #create a dictionary of the poll answers
+#each user has given only one answer
+#this represents a single dictionary without nesting list or other dictionaries.
 favorite_language={
 	'jen':'python',
 	'sarah':'c',
@@ -25,7 +27,7 @@ print("\nNext we check all the names(keys) in the dictionary and if we find our 
 
 #check that my frinds had taken the poll
 for _name in _myfriends:
-	if _name in favorite_language.keys():
+	if _name in favorite_language.keys():#if name of my friend is inside the poll
 		print("Hi "+str(_name).title()+" I see your favorite language is "+
 			str(favorite_language[_name]).title()+", mine too!!")
 	else:

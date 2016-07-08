@@ -12,16 +12,17 @@ _amigo={
 	'work':'',
 } #create an empy dictionary only with keys
 
+#we storage the value of input() into the dictionary keys
 _amigo['name']=input("\nWhats your name amigo: ")
 _amigo['age']=input("How old are you: ")
 _amigo['origin']=input("Where are you from: ")
 _amigo['work']=input("What do you do for leaving: ")
 
 print("\n\tLet me make sure I got everything right: \n")
-print("\tYour name is: "+str(_amigo['name']))
+print("\tYour name is: "+str(_amigo['name']).title())
 print("\tYou are: "+str(_amigo['age'])+" years old")
-print("\tYou are from: "+str(_amigo['origin']))
-print("\tAnd you are a: "+str(_amigo['work']))
+print("\tYou are from: "+str(_amigo['origin']).title())
+print("\tAnd you are a: "+str(_amigo['work']).title())
 
 	
 _prompt=input("\n\tAm I right?")

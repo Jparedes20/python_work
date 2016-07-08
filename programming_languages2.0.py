@@ -10,7 +10,7 @@ favorite_languages={
 	'aldo':['java','c#','php'],
 }
 
-for name, languages in favorite_languages.items():
+for name, languages in favorite_languages.items():#with items() we obtain both the key:value
 	#we check if the list of languages contains more than 1 element before looping
 	if len(languages) >  1:
 		print("\n"+str(name).title()+"'s favorite languages are:\n\t")

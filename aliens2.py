@@ -4,7 +4,7 @@
 #making an empty list to storage aliens.
 _aliens=[]
 
-#making a list of 30 green aliens
+#making a list of 30 green aliens with range()
 _idnumber=0 
 for _newalien in range(30):
 	_newalien={
@@ -23,6 +23,7 @@ for alien in _aliens[0:5]:
 	print(alien)
 
 #modify the next 5 aliens of color
+
 for alien in _aliens[6:11]:
 	if alien['color']=="green":
 		alien['color']='yellow';
