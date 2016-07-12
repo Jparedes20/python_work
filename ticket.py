@@ -1,13 +1,13 @@
 #conditionals on test
 
-_age=65
 
+_age=int(input("What's your age: "))
 
-if _age <= 6:
-	_price=0
-elif _age <=60:
-	_price=10
+if _age < 3:
+	_ticket_price=0
+elif (_age >= 3) and (_age <= 12):
+	_ticket_price=10
 else:
-	_price=5
+	_ticket_price=15
 
-print("Your admission cost is: $" +str(_price)+ ".")
+print("Your admission cost is: $" +str(_ticket_price)+ ".")
