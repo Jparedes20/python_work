@@ -6,7 +6,7 @@ _pizzatoppings=[] #empty lisy
 _mt=True
 
 while _mt:
-	_topping=input("Enter topping, writhe 'quit' to end: ")
+	_topping=input("Enter topping, write 'quit' to end: ")
 	_pizzatoppings.append(_topping)
 	if _topping == "quit":
 	 	_mt=False
