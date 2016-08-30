@@ -1,6 +1,8 @@
 #pizza2.0py
 #passing and arbitrary number of elements of a function
 #*toppings is a list thats accpets any number of arguments
+#In this case *toppings is the arbitrary numer of arguments as a list
+
 def make_pizza(size,*toppings):
 	"""Preparing a pizza with a number of toppings"""
 

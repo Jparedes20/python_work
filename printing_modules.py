@@ -1,5 +1,6 @@
 #printing_modules
 #simulate a 3d printer
+#we pass a list to a function
 
 #list of objects that need to be printed
 unprinted_designs=['guitar','triangle','speaker']
@@ -23,5 +24,7 @@ def show_complete_modules(complete_models):
 		print(modele.title())
 
 #call functions
-print_modules(unprinted_designs,complete_models)
+#we passed a copy of the list to be printed
+print_modules(unprinted_designs[:],complete_models)
 show_complete_modules(complete_models)
+print("\nTHe original list to print was: "+str(unprinted_designs))
